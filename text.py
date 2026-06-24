@@ -1,7 +1,7 @@
 import time
 import os
 
-text = "HELLO GITHUB"
+text = "HELLO LINUX"
 
 while True:
     os.system("clear")
