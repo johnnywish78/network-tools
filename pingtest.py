@@ -1,9 +1,10 @@
 import subprocess
 
-host = input("Enter IP or Domain: ")
+host = input("Target: ")
+count = input("How many pings? ")
 
 result = subprocess.run(
-    ["ping", "-c", "4", host],
+    ["ping", "-c", count, host],
     capture_output=True,
     text=True
 )
