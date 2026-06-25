@@ -11,4 +11,6 @@ Simple Python network tools for Linux.
 - dnscheck.py
 - gateway.py
 
-Created by Johnny Wish
+## Author
+
+Johnny Wish
